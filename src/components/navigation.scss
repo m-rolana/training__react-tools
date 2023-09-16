@@ -1,0 +1,18 @@
+.navigation {
+    background-color: skyblue;
+    border-radius: 30px;
+
+    &__items {
+        padding: 30px;
+        line-height: 30px;
+    }
+
+    &__item {
+        &_in-progress {
+            color: #565656;
+            font-style: italic;
+            pointer-events: none;
+            cursor: default;
+        }
+    }
+}

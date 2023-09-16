@@ -1,0 +1,11 @@
+.io {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    gap: 10px;
+
+    &__field {
+        border-radius: 30px;
+        border: 1px solid #565656;
+    }
+}
